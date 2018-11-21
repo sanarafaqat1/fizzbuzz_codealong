@@ -1,1 +1,2 @@
-# fizzbuzz_codealong
+# FizzBuzz Code Along
+The FizzBuzz challenge allows you to see if a number is divisible by 3,5 or 15, and if not then it should return the numbers between 1 - 100. In the fizzbuzz.rb file, it states all the functions created to display the fizzbuzz challenge. In the spec folder, I created a rspec_fizzbuzz_spec.rb file which consists of the tests I carried out. The tests carried out are to see if it returns fizz, if so then true. The same applies to Buzz, and the next test is regarding FizzBuzz which consists of the number being divisible by 15. The last test carried out shows you if none of the are true then print the numbers.
