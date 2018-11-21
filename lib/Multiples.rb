@@ -11,7 +11,7 @@ class Multiples
   end
   # Find The sum of these Multiples
   def multiples_iterator(range_from, range_to)
-    (range_from...range_to).each do |i|
+    (range_from..range_to).each do |i|
       if multiply_by?(i,3) or  multiply_by?(i,5)
         @multiples_array << i
       end
